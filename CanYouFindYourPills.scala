@@ -153,7 +153,7 @@ object CanYouFindYourPills extends App {
       }
     )
 
-  (1 to 15).foreach { nrDays =>
+  (1 to 14).foreach { nrDays =>
     simulate(nrDays)
     val theoreticalSuccessProbability = {
       val pillBottle = new PillBottle(nrDays)
